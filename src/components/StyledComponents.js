@@ -302,11 +302,12 @@ export const CardWrapper = styled("section")(({ theme }) => ({
   display: "grid",
   gridTemplateColumns: "1fr",
   gap: "24px",
-  marginTop: "20px",
+  marginTop: "45px",
   padding: "50px 20px",
   [theme.breakpoints.up("md")]: {
     gridTemplateColumns: "1fr 1fr",
     padding: "20px 40px",
+    marginTop: "15px",
   },
 }));
 
